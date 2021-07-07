@@ -22,7 +22,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="CPFMae">CPF da Mãe:</label>
-                            <asp:TextBox runat="server" required="required" type="text" class="form-control" id="CPFMae" name="CPFMae" placeholder="Ex.: 010.011.111-00" maxlength="14"/>
+                            <asp:TextBox runat="server" required="required" type="text" class="form-control" id="CPF_Mae" name="CPFMae" placeholder="Ex.: 010.011.111-00" maxlength="14"/>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label for="CPFPai">CPF do Pai:</label>
-                            <asp:TextBox runat="server" type="text" class="form-control" id="CPFPai" name="CPFPai" placeholder="Ex.: 010.011.111-00" maxlength="14"/>
+                            <asp:TextBox runat="server" type="text" class="form-control" id="CPF_Pai" name="CPFPai" placeholder="Ex.: 010.011.111-00" maxlength="14"/>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -85,7 +85,7 @@
                                 </label>
 
 
-                            <div class="row" style=" border: 5px solid red;">
+                            <div class="row">
 
                                 <div class="form-group">
                                     <br /><br />
